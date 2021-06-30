@@ -17,3 +17,10 @@ header{
   display: flex;
   justify-content: space-around;
 }
+header nav{
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: flex-end;
+  margin-right: 40px;
+  align-items: center;
+}
