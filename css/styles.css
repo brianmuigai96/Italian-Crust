@@ -93,3 +93,10 @@ font-weight: 100;
 .container{
   margin-top: 110px;
 }
+.card{
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform .3s;
+}
