@@ -29,3 +29,8 @@
   align-items: center;
   justify-content: center;
 }
+.main h1{
+  font-size: 64px;
+  color: white;
+  padding-bottom: 50px;
+}
