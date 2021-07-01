@@ -10,3 +10,15 @@
   color: black;
   font-size: 25px;
 }
+#header{
+  min-height: 100vh;
+  background-image: url("../land.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  padding: 250px 0 200px;
+  flex-direction: column;
+  font-family: 'arial'
+}
