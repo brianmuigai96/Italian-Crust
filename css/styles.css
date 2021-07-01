@@ -78,3 +78,9 @@ font-weight: 100;
     opacity: 0.8;
     color: white;
 }
+.button:hover{
+  background-color: red;
+  border-color: yellow;
+  transform: rotate(10deg);
+  transition: all 0.2s ease-in-out;
+}
