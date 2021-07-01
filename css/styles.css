@@ -100,3 +100,7 @@ font-weight: 100;
   border-radius: 20px;
   transition: transform .3s;
 }
+.card:hover{
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
