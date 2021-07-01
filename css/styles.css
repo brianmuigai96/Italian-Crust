@@ -84,3 +84,9 @@ font-weight: 100;
   transform: rotate(10deg);
   transition: all 0.2s ease-in-out;
 }
+.order{
+  min-height: 100vh;
+  background-image: url("../product7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
