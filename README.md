@@ -10,20 +10,25 @@ The project is making humans life easy. Through the website one can make a reque
  ## Author
  **BRIAN JOHN KIARIE MUIGAI**
 
- ### Setup Instructions
-Go to your GitHub account
-on the my  repository click the green button written "code"
-copy that link by clicking the clip board option
-Go to your terminal and select the place you want to clone the project. write "git clone followed by the link you copied "
-By doing so you will have clone my whole project to your local computer
+ ## Setup/Installation Requirements
+ * Open Terminal {Ctrl+Alt+T}
 
-### Technologies Used
+ * git clone https://github.com/brianmuigai96/Italian-crust.git
 
-Built with:
-1. HTML
-2. CSS
-3. JAVASCRIPT
-4. JQUERY
+ * cd Italian-Crust
+
+ * code . or atom . depending on the text editor of your choice.
+ 
+ ## Known Bugs
+ * The site is not responsive enough for some devices.
+
+ ## Technologies Used
+ {The website has been built with:
+ * Html5
+ * Bootstrap
+ * Css
+ * Javascript
+ * Jquery
 
 ##### Support and Contact Information
 If you encounter any problem you can always reach out and will help you accordingly via Email
