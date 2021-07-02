@@ -7,7 +7,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css"  rel="stylesheet" type="text/css">
   </head>
-  <body>
+  <body class="order">
     <!-- navbar -->
     <nav id="navbar" class="navbar navbar-light bg-light px-3">
       <a class="navbar-brand" href="index.html">Italian Crust</a>
@@ -30,11 +30,6 @@
                 <div class="mt-3 info">
                   <span class="write d-block">succulent bbq chicken, beef pepperoni, mushroom, green pepper</span>
                 </div>
-                <div class="p-3 product 1 text-center text-white mt-3 cursor">
-                  <a href="#">
-                    <span class="btn-text">Order Now</span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -43,33 +38,21 @@
           <div class="col-md-4">
             <div class="card mt-3">
               <div class="pizza1 align item-center p-2 text-center">
-                <img src="product2.jpg" alt="" class="rounded" width="400">
+                <img src="product3.jpeg" alt="" class="rounded" width="400">
                 <h5 style="margin-top:5px;">Chicken Hawaiian</h5>
                 <div class="mt-3 info">
                   <span class="write d-block">succulent bbq chicken, pineapple</span>
                 </div>
-                <div class="p-3 product 1 text-center text-white mt-3 cursor">
-                  <a href="#">
-                  <span class="btn-text">Order Now</span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
-          <!-- end of chicken hawaiian -->
-    <!-- meat Deluxe -->
           <div class="col-md-4">
             <div class="card mt-3">
               <div class="pizza1 align item-center p-2 text-center">
-                <img src="product3.jpeg" alt="" class="rounded" width="400">
+                <img src="product2.jpg" alt="" class="rounded" width="400">
                 <h5 style="margin-top:5px;">Meat Deluxe</h5>
                 <div class="mt-3 info">
                   <span class="write d-block">Beef pepperoni, bbq steak, macon, sandwich beef</span>
-                </div>
-                <div class="p-3 product 1 text-center text-white mt-3 cursor">
-                  <a href="#">
-                    <span class="btn-text">Order Now</span>
-                  </a>
                 </div>
               </div>
             </div>
@@ -84,11 +67,6 @@
                 <div class="mt-3 info">
                   <span class="write d-block">Sweetcorn, green pepper, chilli, onion</span>
                 </div>
-                <div class="p-3 product 1 text-center text-white mt-3 cursor">
-                  <a href="#">
-                    <span class="btn-text">Order Now</span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -101,11 +79,6 @@
                 <h5 style="margin-top:5px;">Spicy Boerewors</h5>
               <div class="mt-3 info">
                 <span class="write d-block">100% beef mince, fresh onion, green pepper, jalapeno chilli</span>
-              </div>
-              <div class="p-3 product 1 text-center text-white mt-3 cursor">
-                <a href="#">
-                  <span class="btn-text">Order Now</span>
-                </a>
               </div>
             </div>
           </div>
@@ -120,11 +93,6 @@
               <div class="mt-3 info">
                 <span class="write d-block">Fresh red & green peppers, olives, feta cheese, mushroom</span>
               </div>
-              <div class="p-3 product1 text-center text-white mt-3 cursor">
-                <a href="#">
-                  <span class="btn-text">Order Now</span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -132,23 +100,42 @@
       </div>
     </div>
     <!-- end of pizza container -->
-    <!-- cart section -->
-    <section class="container content-section">
-            <h2 class="section-header">Checkout</h2>
-            <div class="cart-row">
-                <span class="cart-item cart-header cart-column">ITEM</span>
-                <span class="cart-price cart-header cart-column">PRICE</span>
-                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-            </div>
-            <div class="cart-items">
-            </div>
-            <div class="cart-total">
-                <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">ksh 0</span>
-            </div>
-            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-    </section>
-    <!-- end of section -->
+    <div class="Order"style="color:#064420;!important">
+      <h3 style="color: #064420;">Place Your Order Now!</h3>
+      <label for=""style="color:#064420">Choose crust type</label>
+      <select class="form-control" name="" id="crust">
+          <option value="230" name="crust">Chicken $ Beef Pepperoni
+          <option value="250" name="crust">Chicken Hawaiian
+          <option value="300" name="crust">Meat Deluxe
+          <option value="300" name="crust">Veg Feast
+          <option value="300" name="crust">Spicy Boereows
+          <option value="300" name="crust">Roast veg & Feta
+      </select>
+            <form action="" id="pizzainfo" >
+                <label for=""style="color:#064420;">Choose pizza size</label>
+                <select class="form-control" name="size" id="size">
+                    <option value="1200">Large @ ksh 1200</option>
+                    <option value="900">Medium @ ksh 900</option>
+                    <option value="600">Small @ ksh 600</option>
+                </select>
+                <label for=""style="color:#064420">Choose crust type</label>
+                <select class="form-control" name="" id="crust">
+                    <option value="230" name="crust">stuffed crust @ ksh230
+                    <option value="250" name="crust">Crispy @ ksh 250
+                    <option value="300" name="crust">Glutten free @ ksh 300
+                </select>
+                <label for="" style="color: #064420;">Choose toppings</label> <br>
+                <input value="150" type="checkbox" id="toppingone">Mushrooms
+                <input value="150" type="checkbox" id="toppingone">Sausage
+                <input value="150" type="checkbox" id="toppingone">Onions
+                <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                <input value="150" type="checkbox" id="toppingone">Mozarella Cheese <br>
+
+                <label for="" style="color:#064420">Input Quantity</label>
+                <input class="form-control form-group" type="text" id="numberofpizza">
+                <button name="button" type="submit" id="submit" value="Check-Out"onclick="calctotalPrice()" style="background-color: #064420;">Submit</button>
+            </form>
+        </div>
     <!-- footer -->
     <footer class="text-center text-white">
           <div class="container p-4">
@@ -189,5 +176,6 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <script src="js/script.js"></script>
   </body>
 </html>
