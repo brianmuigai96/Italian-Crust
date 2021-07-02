@@ -100,9 +100,11 @@
       </div>
     </div>
     <!-- end of pizza container -->
-    <div class="Order"style="color:#064420;!important">
-      <h3 style="color: #064420;">Place Your Order Now!</h3>
-      <label for=""style="color:#064420">Choose crust type</label>
+    <!-- order section -->
+    <!-- Pizza selection -->
+    <div class="Order"style="color:orange;!important">
+      <h3 style="color: orange;">Place Your Order Now!</h3>
+      <label for=""style="color:Orange">Choose crust type</label>
       <select class="form-control" name="" id="crust">
           <option value="230" name="crust">Chicken $ Beef Pepperoni
           <option value="250" name="crust">Chicken Hawaiian
@@ -111,31 +113,39 @@
           <option value="300" name="crust">Spicy Boereows
           <option value="300" name="crust">Roast veg & Feta
       </select>
-            <form action="" id="pizzainfo" >
-                <label for=""style="color:#064420;">Choose pizza size</label>
-                <select class="form-control" name="size" id="size">
-                    <option value="1200">Large @ ksh 1200</option>
-                    <option value="900">Medium @ ksh 900</option>
-                    <option value="600">Small @ ksh 600</option>
-                </select>
-                <label for=""style="color:#064420">Choose crust type</label>
-                <select class="form-control" name="" id="crust">
-                    <option value="230" name="crust">stuffed crust @ ksh230
-                    <option value="250" name="crust">Crispy @ ksh 250
-                    <option value="300" name="crust">Glutten free @ ksh 300
-                </select>
-                <label for="" style="color: #064420;">Choose toppings</label> <br>
-                <input value="150" type="checkbox" id="toppingone">Mushrooms
-                <input value="150" type="checkbox" id="toppingone">Sausage
-                <input value="150" type="checkbox" id="toppingone">Onions
-                <input value="150" type="checkbox" id="toppingone">Tikka Sauce
-                <input value="150" type="checkbox" id="toppingone">Mozarella Cheese <br>
+      <!-- End of pizza selection -->
+      <!-- selection of size of pizza  -->
+        <form action="" id="pizzainfo" >
+            <label for=""style="color:orange;">Choose pizza size</label>
+            <select class="form-control" name="size" id="size">
+              <option value="1200">Large @ ksh 1200</option>
+              <option value="900">Medium @ ksh 900</option>
+              <option value="600">Small @ ksh 600</option>
+            </select>
+            <!-- end of selection of size of pizza -->
+            <!-- selection of type of crust -->
+            <label for=""style="color:orange">Choose crust type</label>
+            <select class="form-control" name="" id="crust">
+              <option value="230" name="crust">stuffed crust @ ksh230
+              <option value="250" name="crust">Crispy @ ksh 250
+              <option value="300" name="crust">Glutten free @ ksh 300
+            </select>
+            <!-- end of selection of type of crust -->
+            <!-- selection of type of toppings -->
+            <label for="" style="color: orange;">Choose toppings</label> <br>
+            <input value="150" type="checkbox" id="toppingone">Mushrooms
+            <input value="150" type="checkbox" id="toppingone">Sausage
+            <input value="150" type="checkbox" id="toppingone">Onions
+            <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+            <input value="150" type="checkbox" id="toppingone">Mozarella Cheese <br>
+            <!-- end of selection of type of toppings -->
 
-                <label for="" style="color:#064420">Input Quantity</label>
-                <input class="form-control form-group" type="text" id="numberofpizza">
-                <button name="button" type="submit" id="submit" value="Check-Out"onclick="calctotalPrice()" style="background-color: #064420;">Submit</button>
-            </form>
+            <label for="" style="color:orange">Input Quantity</label>
+            <input class="form-control form-group" type="text" id="numberofpizza">
+            <button name="button" type="submit" id="submit" value="Check-Out"onclick="calctotalPrice()" style="background-color: #064420; margin-top:2px;">Submit</button>
+          </form>
         </div>
+        <!-- end of order section -->
     <!-- footer -->
     <footer class="text-center text-white">
           <div class="container p-4">
@@ -176,6 +186,7 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
